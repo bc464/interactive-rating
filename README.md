@@ -97,3 +97,4 @@ This challenge is completely free. Please share it with anyone who will find it 
 # interactive-rating-compnent-main
 # interactive-rating-component-main
 #rating-component-main
+# interactive-rating
