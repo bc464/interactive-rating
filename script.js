@@ -8,9 +8,10 @@ submitBtn.addEventListener("click", function () {
 	mainContainerBack.style.display = "block";
 })
 const numberChosen = function(e) {
-	let selected = e.originalTarget.innerHTML;
-	e.originalTarget.classList.toggle("focus");
+	let selected = e.target.innerHTML;
+	
 	choice.textContent = selected;
-	}
+	e.target.classList.toggle("focus");
+}
 
 selectedNumber.forEach(number => number.addEventListener("click", numberChosen));
